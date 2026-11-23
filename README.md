@@ -76,8 +76,8 @@ Portfolio-5-FinancialDataAnalysis/
 │           └── 782e5417901907f84aaa/
 │               └── page.json                           # Report page definition
 │
-├── Financial Sample.xlsx                               # Source data
-└── Financial Data Modelling.pbix                       # Legacy .pbix file
+├── financial_sample.xlsx                               # Source data
+└── financial_data_modelling.pbix                       # Legacy .pbix file
 ```
 
 The project uses the modern **Power BI Project (.pbip)** format with **TMDL (Tabular Model Definition Language)** — enabling version control of every model artefact as plain text files.
@@ -88,7 +88,7 @@ The project uses the modern **Power BI Project (.pbip)** format with **TMDL (Tab
 
 | Property | Value |
 |---|---|
-| File | `Financial Sample.xlsx` |
+| File | `financial_sample.xlsx` |
 | Table | `financials` |
 | Format | Excel Workbook |
 | Load mode | Import |
@@ -120,7 +120,7 @@ The source contains raw transactional data with the following columns:
 
 ### Star Schema
 
-![Star schema model](image/star%20schema.png)
+![Star schema model](image/star_schema.png)
 
 ### Tables
 
@@ -301,7 +301,7 @@ This pattern ensures dimension keys are consistent and referential integrity is 
 ### Prerequisites
 
 - **Power BI Desktop** (latest version recommended) with `.pbip` format support enabled
-- The source file `Financial Sample.xlsx` must be present at the configured local path, or you will need to update the data source path in Power BI Desktop
+- The source file `financial_sample.xlsx` must be present at the configured local path, or you will need to update the data source path in Power BI Desktop
 
 ### Opening the Report
 
